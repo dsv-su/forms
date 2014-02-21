@@ -15,11 +15,6 @@ projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
 projects[ctools][type] = "module"
 
-projects[daisy_data][subdir] = "custom"
-projects[daisy_data][type] = "module"
-projects[daisy_data][download][type] = "git"
-projects[daisy_data][download][url] = "https://github.com/dsv-su/daisy_data"
-
 projects[daisy_update_name][subdir] = "custom"
 projects[daisy_update_name][type] = "module"
 projects[daisy_update_name][download][type] = "git"
@@ -75,20 +70,31 @@ projects[webform_validation][type] = "module"
 
 
 ; Themes
-; bootstrap
+; mothership
+projects[mothership][type] = "theme"
+projects[mothership][version] = "2.10"
+projects[mothership][subdir] = "contrib"
+
+; bootstrap (not yet used.. nice things coming... :D )
 projects[bootstrap][type] = "theme"
 projects[bootstrap][version] = "3.0"
 projects[bootstrap][subdir] = "contrib"
+
+; DSV theme
+projects[dsv_theme][subdir] = "custom"
+projects[dsv_theme][type] = "theme"
+projects[dsv_theme][download][type] = "git"
+projects[dsv_theme][download][url] = "ssh://git.dsv.su.se/git/drupal/themes/dsvtheme"
 
 
 ; Libraries
 
 ; Install Profiles
 ; Forms
-libraries[internt][directory_name] = "forms"
-libraries[internt][type] = "profile"
-libraries[internt][destination] = "../../profiles"
-libraries[internt][download][type] = "git"
-libraries[internt][download][url] = "ssh://git.dsv.su.se/git/drupal/forms.git"
+libraries[forms][directory_name] = "forms"
+libraries[forms][type] = "profile"
+libraries[forms][destination] = "../../profiles"
+libraries[forms][download][type] = "git"
+libraries[forms][download][url] = "https://github.com/dsv-su/forms.git"
 
 ; Patches

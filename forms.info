@@ -54,6 +54,8 @@ dependencies[] = l10n_update
 dependencies[] = shib_auth
 dependencies[] = redirect
 dependencies[] = libraries
+dependencies[] = mothership
+dependencies[] = jquery_update
 
 ; Webform
 dependencies[] = webform
