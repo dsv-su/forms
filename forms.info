@@ -1,0 +1,61 @@
+name = "Forms"
+description = "This is the install profile for the Forms system"
+core = "7.x"
+
+; -------------
+; Dependencies
+; -------------
+
+; Chaos tool suite
+dependencies[] = ctools
+
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = toolbar
+dependencies[] = update
+dependencies[] = user
+
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+
+; Menu Block
+dependencies[] = menu_block
+dependencies[] = menu_block_export
+
+; Other
+dependencies[] = l10n_update
+dependencies[] = shib_auth
+dependencies[] = redirect
+dependencies[] = libraries
+
+; Webform
+dependencies[] = webform
+dependencies[] = webform_conditional
+dependencies[] = webform_validation
