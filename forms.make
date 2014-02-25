@@ -68,6 +68,10 @@ projects[webform_validation][version] = "1.4"
 projects[webform_validation][subdir] = "contrib"
 projects[webform_validation][type] = "module"
 
+projects[webform_report][version] = "1.0"
+projects[webform_report][subdir] = "contrib"
+projects[webform_report][type] = "module"
+
 
 ; Themes
 ; mothership
