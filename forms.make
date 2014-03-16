@@ -56,6 +56,10 @@ projects[views][version] = "3.7"
 projects[views][subdir] = "contrib"
 projects[views][type] = "module"
 
+projects[view_unpublished][version] = "1.1"
+projects[view_unpublished][subdir] = "contrib"
+projects[view_unpublished][type] = "module"
+
 projects[webform][version] = "3.20"
 projects[webform][subdir] = "contrib"
 projects[webform][type] = "module"
