@@ -10,6 +10,9 @@ projects[drupal][download][type] = get
 projects[drupal][download][url] = http://ftp.drupal.org/files/projects/drupal-7.26.tar.gz
 
 ; Modules
+projects[captcha][version] = "1.0"
+projects[captcha][subdir] = "contrib"
+projects[captcha][type] = "module"
 
 projects[ctools][version] = "1.4"
 projects[ctools][subdir] = "contrib"
